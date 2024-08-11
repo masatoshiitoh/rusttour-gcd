@@ -11,6 +11,8 @@ env:
   SLACK_USERNAME: GithubActionsBot
   SLACK_ICON: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
   SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+  # Slack連携はここを参考にした。
+  # https://zenn.dev/wakkunn/articles/c6978bd2b5ca55
 
 jobs:
   build:
