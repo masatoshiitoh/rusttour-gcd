@@ -8,7 +8,7 @@ on:
 
 env:
   CARGO_TERM_COLOR: always
-  SLACK_USERNAME: ActionsBot
+  SLACK_USERNAME: GithubActionsBot
   SLACK_ICON: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
   SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
 
